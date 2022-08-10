@@ -1,0 +1,198 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	min-height: 100%;
+}
+#header {
+    background-color: #066a75;
+    height: 65px;
+    width: 100%;
+    margin-top: -25px;
+    color: white;
+
+}
+#header p {
+    width: 17%;
+    height: 65px;
+    font-family: fantasy;
+    font-size: 25px;
+    padding-top: 18px;
+}
+#geral {
+	/*background-color: #CEE3F6;*/
+	height: 110px;
+}
+#geral h1 {
+    margin-top: 5.5px;
+}
+#contmenu {
+    background-color: #000;
+    height: 100%;
+    width: 14%;
+    float: left;
+}
+#menu {
+	background-color: #000;
+	padding-top: 16%;
+    margin-left: -43.5px;
+	float: right;
+	height: 100%;
+}
+#menu ul {
+    margin-left: 0px;
+	list-style: none;
+}
+#menu ul li {
+	display:block;
+	padding: 0px;
+    color: wheat;
+}
+#menu ul li button {
+	height: 49px;
+    width: 253px;
+    margin-top: 0px;
+    background-color: #066a75;
+    border: none;
+    border-radius: 6px;
+    font-size: 19px;
+    color: white;
+}
+#menu ul li button:hover {
+	background-color:#A9E2F3;
+	color: #000;
+}
+#menu ul li a {
+	padding:  4px;
+	display: inline-block;
+	text-decoration: none;
+}
+a button {
+	background-color: #066a75;
+	color: white;
+	border: 1px solid #066a75;
+    height: 30px;
+	width: 100px;
+    border-radius: 3px;
+    font-size: 19px;
+    margin-left: 600px;
+}
+a button:hover{
+	background-color:#A9E2F3;
+	color: #000;
+	border: 1px solid #A9E2F3;
+}
+input {
+	width: 14%;
+  	margin-top: 4px;
+  	padding: 10px;    
+  	border: 1px solid #b2b2b2;
+  	outline: none;
+  	word-spacing: 2px;
+ 
+  	-webkit-border-radius: 3px;
+  	border-radius: 3px;
+ 
+  	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  	box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+ 
+  	-webkit-transition: all 0.2s linear;
+  	transition: all 0.2s linear;
+}
+.salvar input {
+	width: 100px;
+    margin-top: 20px;
+    margin-left: 38%;
+    text-align: center;
+    background-color: #066a75;
+    color: white;
+}
+
+.salvar input:hover{
+	background-color:#A9E2F3;
+	color: #000;
+	border: 1px solid #A9E2F3;
+	transition: 0.3s;
+}
+.table {
+	width: 54%;
+	text-align: center;
+	float: right;
+	margin-top: 1%;
+	margin-right: 21%;
+	border: 1px solid;
+	border-radius: 8px;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 800;
+}
+#tbproduto {
+	margin-top: -210px;
+}
+#tbcategoria {
+	margin-top: -115px;
+}
+th {
+	background-color: #066a75;
+	border-radius: 3px;
+	color: white;
+}
+th, td {
+	padding: 15px;
+}
+h1{
+	padding-top: 0%;
+	font-family: Candara;
+}
+.box{
+  position: relative;
+  top: 0px;
+  width: 25%;
+  padding-top: 1%;
+  height: 45px;   
+  /*padding: 18px 6% 60px 6%;*/
+  margin: 0 0 35px 0;
+  background: #f7f7f7;
+  border: 1px solid rgba(147, 184, 189,0.8);
+   
+  -webkit-box-shadow: 5px;
+  border-radius: 25px;
+   
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+ 
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+.content{
+	padding-left: 19%;
+}
+form{
+	text-align: center;
+    padding-right: 0%;
+    margin-right: 1%;
+}
+
+.salvar{
+	padding-right: 18%;
+}
+textarea{
+	/*padding: 10px;*/
+	padding: 10px;
+    margin-right: -14%;
+    font-size: 16px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    outline: none;
+    width: 15%;
+    height: 55px;
+    resize: none;
+}
+p{
+	
+    font-size: 15px;
+    padding-right: 10%;
+    margin-right: -10%;
+}
